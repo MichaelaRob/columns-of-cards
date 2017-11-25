@@ -1,0 +1,22 @@
+html {
+  box-sizing: border-box;
+
+  color: #333;
+  font-family: Open Sans, sans-serif;
+  line-height: 1.5;
+  font: normal;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 700;
+}
