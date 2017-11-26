@@ -5,6 +5,7 @@ html {
   font-family: Open Sans, sans-serif;
   line-height: 1.5;
   font: normal;
+  font-size: .875rem;
 }
 
 *, *::before, *::after {
@@ -13,6 +14,8 @@ html {
 
 body {
   margin: 0;
+  padding: .75rem;
+  background-color: #f2f2f2;
 }
 
 h2 {
@@ -21,27 +24,49 @@ h2 {
   font-weight: 700;
 }
 
-.italic {
-  font-style: italic;
+h3 {
   font-size: .875rem;
 }
 
+img {
+  max-width: 100px;
+  display: block;
+  margin: auto;
+  padding: .75rem;
+}
+
+.italic {
+  font-style: italic;
+  font-size: .875rem;
+  margin: 0 0 1.5rem;
+
+}
+
 .anderon {
-  background-color: #f2f2f2;
+  background-color: #e2e2e2;
   float: left;
+  width: 25%;
 }
 
 .dinosaur {
-  background-color: #e2e2e2;
+  background-color: #ccc;
   float: left;
+  width: 25%;
+  padding: 0 auto 1.5rem;
 }
 
 .dragon {
-  background-color: #ccc;
+  background-color: #aaa;
   float: left;
+  width: 25%;
 }
 
 .laser {
-  background-color: #aaa;
+  background-color: #999;
   float: left;
+  width: 25%;
+}
+
+.columns {
+  margin: 1px;
 }
