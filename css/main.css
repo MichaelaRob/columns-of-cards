@@ -99,3 +99,7 @@ a {
 .btn-small {
   font-size: .875rem;
 }
+
+a:hover {
+  background-color: #000;
+}
