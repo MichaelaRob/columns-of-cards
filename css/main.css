@@ -29,44 +29,73 @@ h3 {
 }
 
 img {
-  max-width: 100px;
+  width: 100px;
   display: block;
-  margin: auto;
-  padding: .75rem;
+  margin: 0 auto 1.5rem;
+  padding-top: .75rem;
 }
 
 .italic {
   font-style: italic;
   font-size: .875rem;
-  margin: 0 0 1.5rem;
-
 }
 
 .anderon {
   background-color: #e2e2e2;
   float: left;
   width: 25%;
+  padding: 1.5rem;
+  overflow: hidden;
+  height: auto;
 }
 
 .dinosaur {
   background-color: #ccc;
   float: left;
   width: 25%;
-  padding: 0 auto 1.5rem;
+  padding: 1.5rem;
+  overflow: hidden;
+  height: auto;
 }
 
 .dragon {
   background-color: #aaa;
   float: left;
   width: 25%;
+  padding: 1.5rem;
+  overflow: hidden;
+  height: auto;
 }
 
 .laser {
   background-color: #999;
   float: left;
   width: 25%;
+  padding: 1.5rem;
+  overflow: hidden;
+  height: auto;
 }
 
 .columns {
   margin: 1px;
+}
+
+a {
+  text-decoration: none;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 8px;
+  padding: .4em .75em .5em;
+  display: inline-block;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+  display: inline-block;
+}
+
+.btn-small {
+  font-size: .875rem;
 }
