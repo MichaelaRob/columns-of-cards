@@ -44,6 +44,7 @@ img {
   font-size: .875rem;
   margin: 0;
 }
+
 div {
   float: left;
   width: 25%;
@@ -54,8 +55,8 @@ div {
   border-top: none;
   border-bottom: none;
   border-right: none;
-
 }
+
 .anderon {
   background-color: #e2e2e2;
 }
