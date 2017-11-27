@@ -4,7 +4,7 @@ html {
   color: #333;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
-  font: normal;
+  font-style: normal;
   font-size: .875rem;
 }
 
@@ -30,6 +30,7 @@ h3 {
 .columns {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  margin: 1px;
 }
 
 img {
@@ -72,10 +73,6 @@ div {
   border: 1px solid #333;
   border-top: none;
   border-bottom: none;
-}
-
-.columns {
-  margin: 1px;
 }
 
 a {
