@@ -49,6 +49,10 @@ div {
   padding: .75rem;
   overflow: hidden;
   min-height: 414px;
+  border: 1px solid #333;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
 
 }
 .anderon {
@@ -65,6 +69,9 @@ div {
 
 .laser {
   background-color: #999;
+  border: 1px solid #333;
+  border-top: none;
+  border-bottom: none;
 }
 
 .columns {
