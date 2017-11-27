@@ -18,13 +18,15 @@ body {
 }
 
 h2 {
-  font-size: 2rem;
   text-align: center;
+  color: #333;
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
 h3 {
-  font-size: .875rem;
   margin: 0;
+  color: #333;
 }
 
 .columns {
@@ -43,6 +45,7 @@ img {
   font-style: italic;
   font-size: .875rem;
   margin: 0;
+  color: #333;
 }
 
 div {
@@ -103,4 +106,5 @@ a {
 
 .author {
   margin: 0 0 1.5rem;
+  font-size: 1rem;
 }
