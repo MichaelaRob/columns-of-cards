@@ -95,8 +95,9 @@ a {
   font-size: .875rem;
 }
 
-a:hover {
+.btn:hover {
   background-color: #000;
+  border-color: #000;
 }
 
 .author {
