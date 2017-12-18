@@ -49,8 +49,12 @@ div {
 
 img {
   display: block;
-  margin: 0 auto 1.5rem;
+  width: 100%;
+}
+
+.columns img {
   width: 100px;
+  margin: 0 auto 1.5rem;
 }
 
 .italic {
